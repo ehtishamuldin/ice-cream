@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+$main-bg:#FE6F69;
+$btn-color:#E53166;
+$btn-color-2:#E23888;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Alegreya Sans", sans-serif;
+}
+body{
+    background: $main-bg;
+    header{
+        padding: 0 20px;
+        .navbar{
+            .collapse{
+                .navbar-nav{
+                    .nav-item{
+                        margin: 0 15px;
+                        .nav-link{
+                            color: white;
+                            font-size: 24px;
+                            font-weight: bolder;
+                        }
+                        .dropdown-toggle{
+                            &::after{
+                                vertical-align: 0.055em;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .hero{
+        padding: 10px 40px;
+        overflow: hidden;
+        .container-fluid{
+            .row{
+                .main-text{
+                    span{
+                        font-size: 20px;
+                        font-weight: 600;
+                    }
+                    h1{
+                        font-size: 95px;
+                        font-weight: 800;
+                        margin: -10px 0 -20px 0;
+                    }
+                    h2{
+                        font-size: 40px;
+                        font-weight: 700;
+                    }
+                    .btns{
+                        .btn{
+                            background: $btn-color;
+                            border-radius: 38px;
+                            padding: 7px 30px;
+                            font-weight: 600;
+                            font-size: 17px;
+                            box-shadow: 9px 0px 0px 0px #e531667d;
+                        }
+                        a{
+                            background: $btn-color;
+                            padding: 13px;
+                            border-radius: 28px;
+                            margin-left: 20px;
+                            box-shadow: 7px 0px 0px 0px #e531667d;
+                            i{
+                                color: white;
+                                &::before{
+                                    vertical-align: -0.25em;
+                                }
+                            }
+                        }
+                    }
+                }
+                .main-img{
+                    margin: -70px;
+                    .best-offer{
+                        height: 120px;
+                        width: 120px;
+                        background: url('../img/Star1.png');
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        font-weight: 900;
+                        font-size: 20px;
+                    }
+                    .ice-cream{
+                        max-width: 100%;
+                        max-height: 100%;
+                        img{
+                            max-width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+                .groups{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: end;
+                    img{
+                        max-width: 270px;
+                        margin: -10px 0;
+                        margin-right: -50px;
+                    }
+                }
+            }
+        }
+    }
+    .enjoy{
+        margin-top: 40px;
+        padding: 70px 0 0 0;
+        .container{
+            .row{
+                .enjoy-img{
+                    max-width: 100%;
+                    max-height: 100%;
+                    img{
+                        max-width: 100%;
+                        height: 100%;
+                    }
+                }
+                .enjoy-text{
+                    .main-text{
+                        span{
+                            font-size: 31px;
+                            font-weight: 700;
+                            text-decoration: underline; 
+                        }
+                        h2{
+                            font-size: 145px;
+                            font-weight: 800;
+                            line-height: 125px;
+                        }
+                        p{
+                            font-size: 20px;
+                            font-weight: 500;
+                        }
+                    }
+                    .btns{
+                        display: flex;
+                        justify-content: space-between;
+                        .btn{
+                            background: $btn-color-2;
+                            border-radius: 12px;
+                            padding: 13px 30px;
+                            font-weight: 600;
+                            font-size: 27px;
+                            box-shadow: 9px 0px 0px 0px #e2388778;
+                        }
+                        a{
+                            background: $btn-color-2;
+                            padding: 20px 26px;
+                            border-radius: 38px;
+                            margin-left: 20px;
+                            box-shadow: 0px 0px 2px 7px #e2388756;
+                            i{
+                                color: white;
+                                font-size: 23px;
+                                &::before{
+                                    vertical-align: -0.25em;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

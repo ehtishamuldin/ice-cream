@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+body {
+  background: #FE6F69;
+}
+body header {
+  padding: 0 20px;
+}
+body header .navbar .collapse .navbar-nav .nav-item {
+  margin: 0 15px;
+}
+body header .navbar .collapse .navbar-nav .nav-item .nav-link {
+  color: white;
+  font-size: 24px;
+  font-weight: bolder;
+}
+body header .navbar .collapse .navbar-nav .nav-item .dropdown-toggle::after {
+  vertical-align: 0.055em;
+}
+body .hero {
+  padding: 10px 40px;
+  overflow: hidden;
+}
+body .hero .container-fluid .row .main-text span {
+  font-size: 20px;
+  font-weight: 600;
+}
+body .hero .container-fluid .row .main-text h1 {
+  font-size: 95px;
+  font-weight: 800;
+  margin: -10px 0 -20px 0;
+}
+body .hero .container-fluid .row .main-text h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+body .hero .container-fluid .row .main-text .btns .btn {
+  background: #E53166;
+  border-radius: 38px;
+  padding: 7px 30px;
+  font-weight: 600;
+  font-size: 17px;
+  box-shadow: 9px 0px 0px 0px rgba(229, 49, 102, 0.4901960784);
+}
+body .hero .container-fluid .row .main-text .btns a {
+  background: #E53166;
+  padding: 13px;
+  border-radius: 28px;
+  margin-left: 20px;
+  box-shadow: 7px 0px 0px 0px rgba(229, 49, 102, 0.4901960784);
+}
+body .hero .container-fluid .row .main-text .btns a i {
+  color: white;
+}
+body .hero .container-fluid .row .main-text .btns a i::before {
+  vertical-align: -0.25em;
+}
+body .hero .container-fluid .row .main-img {
+  margin: -70px;
+}
+body .hero .container-fluid .row .main-img .best-offer {
+  height: 120px;
+  width: 120px;
+  background: url("../img/Star1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-weight: 900;
+  font-size: 20px;
+}
+body .hero .container-fluid .row .main-img .ice-cream {
+  max-width: 100%;
+  max-height: 100%;
+}
+body .hero .container-fluid .row .main-img .ice-cream img {
+  max-width: 100%;
+  height: 100%;
+}
+body .hero .container-fluid .row .groups {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+}
+body .hero .container-fluid .row .groups img {
+  max-width: 270px;
+  margin: -10px 0;
+  margin-right: -50px;
+}
+body .enjoy {
+  margin-top: 40px;
+  padding: 70px 0 0 0;
+}
+body .enjoy .container .row .enjoy-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+body .enjoy .container .row .enjoy-img img {
+  max-width: 100%;
+  height: 100%;
+}
+body .enjoy .container .row .enjoy-text .main-text span {
+  font-size: 31px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+body .enjoy .container .row .enjoy-text .main-text h2 {
+  font-size: 145px;
+  font-weight: 800;
+  line-height: 125px;
+}
+body .enjoy .container .row .enjoy-text .main-text p {
+  font-size: 20px;
+  font-weight: 500;
+}
+body .enjoy .container .row .enjoy-text .btns {
+  display: flex;
+  justify-content: space-between;
+}
+body .enjoy .container .row .enjoy-text .btns .btn {
+  background: #E23888;
+  border-radius: 12px;
+  padding: 13px 30px;
+  font-weight: 600;
+  font-size: 27px;
+  box-shadow: 9px 0px 0px 0px rgba(226, 56, 135, 0.4705882353);
+}
+body .enjoy .container .row .enjoy-text .btns a {
+  background: #E23888;
+  padding: 20px 26px;
+  border-radius: 38px;
+  margin-left: 20px;
+  box-shadow: 0px 0px 2px 7px rgba(226, 56, 135, 0.337254902);
+}
+body .enjoy .container .row .enjoy-text .btns a i {
+  color: white;
+  font-size: 23px;
+}
+body .enjoy .container .row .enjoy-text .btns a i::before {
+  vertical-align: -0.25em;
+}
